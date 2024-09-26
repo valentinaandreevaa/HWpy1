@@ -1,0 +1,12 @@
+[INFO] DB connection closed
+[INFO] DB connection closed
+3434
+[INFO] DB connection closed
+[INFO] DB connection closed
+[INFO] Error - can't work with SQL (psycopg2.errors.ForeignKeyViolation) update or delete on table "company" violates foreign key constraint "FK_3f25598a5f106392263f58a2eb2" on table "employee"
+DETAIL:  Key (id)=(3434) is still referenced from table "employee".
+
+[SQL: delete from company where id = %(company_id)s]
+[parameters: {'company_id': 3434}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[INFO] DB connection closed
