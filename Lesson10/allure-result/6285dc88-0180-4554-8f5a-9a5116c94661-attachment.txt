@@ -1,0 +1,6 @@
+[INFO] DB connection closed
+[INFO] DB connection closed
+[INFO] DB connection closed
+[INFO] DB connection closed
+[INFO] DB connection closed
+[INFO] DB connection closed

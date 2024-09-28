@@ -1,0 +1,21 @@
+[INFO] Error - can't work with SQL (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'name'
+[SQL: insert into company (name, description) values (%(name)s, %(description)s)]
+[parameters: [{'parameters': {'name': 'New updating company', 'description': 'test'}}]]
+(Background on this error at: https://sqlalche.me/e/14/cd3x)
+[INFO] DB connection closed
+[INFO] DB connection closed
+[INFO] Error - can't work with SQL (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'id'
+[SQL: insert into employee(company_id, first_name, last_name, phone) values(%(id)s, %(name)s, %(surname)s, %(phone_num)s)]
+[parameters: [{'parameters': {'id': 3444, 'name': 'Valentina', 'surname': 'Andreeva', 'phone_num': 8002000600}}]]
+(Background on this error at: https://sqlalche.me/e/14/cd3x)
+[INFO] DB connection closed
+[INFO] Error - can't work with SQL (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'c_id'
+[SQL: select MAX(id) from employee where company_id = %(c_id)s]
+[parameters: [{'parameters': {'c_id': 3444}}]]
+(Background on this error at: https://sqlalche.me/e/14/cd3x)
+[INFO] DB connection closed
+[INFO] Error - can't work with SQL (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'new_name'
+[SQL: update employee set first_name = %(new_name)s where id = %(employer_id)s]
+[parameters: [{'parameters': {'new_name': 'Valentina', 'employer_id': None}}]]
+(Background on this error at: https://sqlalche.me/e/14/cd3x)
+[INFO] DB connection closed
